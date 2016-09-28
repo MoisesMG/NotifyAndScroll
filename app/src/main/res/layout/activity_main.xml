@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.moises.notifyandscroll.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:text="Enviar Notificacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnNotify"
+                android:onClick="onClick" />
+
+            <TextView
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc varius congue pulvinar. Suspendisse porta elit felis, sit amet dapibus arcu mollis vel. Curabitur non eros in ipsum scelerisque elementum sit amet in enim. Pellentesque tempus eu est at dignissim. Vivamus in lobortis metus. In dictum auctor tempus. Suspendisse tristique purus sit amet facilisis facilisis. Mauris et tellus nec velit gravida convallis. Sed et rhoncus ex.  Nunc magna ligula, vulputate ac neque eu, condimentum lacinia arcu. Aliquam at sagittis leo, et scelerisque dolor. Donec eget dolor mollis, vulputate nunc non, pellentesque ante. Duis fermentum nibh nisi, ac tincidunt leo tincidunt at. Quisque ac nisi quis erat ullamcorper viverra. Proin convallis ante nec efficitur dictum. Donec non egestas neque. Aliquam hendrerit iaculis tortor, vitae suscipit erat pretium sit amet. Aliquam justo justo, suscipit in lorem sit amet, facilisis hendrerit augue. Proin quam erat, laoreet nec augue et, pellentesque malesuada dui. Morbi egestas eget enim quis faucibus. Pellentesque vel elit nec ipsum facilisis commodo. Pellentesque at tortor porttitor, tincidunt mi ac, molestie orci.  Nam at mauris in arcu semper sodales. Nam egestas velit tortor, a accumsan nulla ultrices ac. Maecenas vitae tempor nulla. Cras sit amet consequat mi. Quisque a ipsum et urna fringilla dignissim. Pellentesque vel tempus quam. Nam ornare vitae ligula a finibus. Curabitur rutrum sed ex vestibulum pulvinar. Vestibulum semper euismod aliquam. Donec pulvinar ipsum et mi rhoncus, ac accumsan quam cursus. Praesent a rutrum elit. Proin lobortis pharetra felis. Sed quam augue, commodo quis semper sed, cursus nec diam. Aliquam sit amet aliquet mi. Nullam tellus tortor, bibendum sit amet feugiat blandit, efficitur non dui. Cras rhoncus risus in sapien consequat, vulputate rutrum magna dignissim.  Aenean a elementum magna. Phasellus pharetra eleifend aliquam. Vivamus interdum arcu sed diam porttitor rutrum. Quisque at urna imperdiet, posuere nisi vel, vehicula diam. Proin dignissim id risus eu vestibulum. Proin purus nulla, scelerisque ut sem at, mattis pharetra orci. Suspendisse sit amet massa tincidunt lectus malesuada facilisis eget a nisi. Duis venenatis scelerisque mi, sit amet rutrum mi mattis ut. Pellentesque pellentesque ligula sit amet odio fermentum, ut vestibulum tortor aliquam. Etiam ac dui in est convallis euismod non id dolor. Sed vehicula lorem lectus, quis rutrum metus placerat nec. Praesent iaculis hendrerit arcu vitae tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque in velit lacinia, volutpat risus at, luctus velit.  Nulla a feugiat turpis. Sed vitae eleifend enim. Donec fringilla mauris ipsum, non laoreet erat molestie quis. Proin vitae est sagittis tellus eleifend ornare nec vel velit. Mauris et tortor nec diam elementum vulputate sed sit amet elit. Vestibulum aliquam pulvinar purus eu convallis. Nulla sed tortor nec ante imperdiet sagittis facilisis non metus. Etiam porta diam id mauris mattis, sed ullamcorper urna imperdiet. Cras gravida eros ipsum, sed varius nibh finibus ac. Pellentesque faucibus tortor ligula, quis interdum felis placerat sed. Integer tristique tincidunt quam, sed suscipit orci facilisis vitae. Morbi malesuada ex vitae felis vehicula placerat. Curabitur facilisis arcu eu metus sodales, nec tempus lacus rhoncus. Phasellus sed eros aliquam, auctor magna eget, placerat neque. Phasellus tincidunt auctor tortor eu commodo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
